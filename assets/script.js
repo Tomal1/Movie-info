@@ -57,6 +57,24 @@ function applyAPI(){
         plotCon.innerHTML = data.Plot;
         contents.appendChild(plotCon);
 
+        let awardCon = document.createElement("div");
+        awardCon.classList.add("awards");
+        awardCon.innerHTML = data.Awards;
+        contents.appendChild(awardCon);
+
+        let boxCon = document.createElement("div");
+        boxCon.classList.add("boxOffice");
+        boxCon.innerHTML = `Box office: ${data.BoxOffice}`;
+        contents.appendChild(boxCon);
+
+        let RuntimeCon = document.createElement("div");
+        RuntimeCon.classList.add("Runtime");
+        RuntimeCon.innerHTML = `Runtime: ${data.Runtime}`;
+        contents.appendChild(RuntimeCon);
+
+
+
+
 
 
         submitBtn.addEventListener("click", formReset);
