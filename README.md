@@ -1,2 +1,5 @@
 # Movie-info
-a web app that takes movie name as an input and displays information about that film
+
+## Discription
+a simple app which the client inputs a movie name and then a plethora of information about that movie will be presented.
+
